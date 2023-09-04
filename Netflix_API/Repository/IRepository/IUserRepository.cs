@@ -2,7 +2,7 @@
 using Netflix_API.Model;
 
 namespace Netflix_API.Repository.IRepository
-{
+{//user security interface
     public interface IUserRepository
     {
         bool IsUniqueUser(string username);
